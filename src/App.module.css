@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
+section {
+  background-color: #6d109fda;
+  /*la couleur de surface, avec la propriété background-color*/
+  border-radius: 2rem;
+  /*l'arrondi des angles de la card avec la propriété border-radius.*/
+  display: flex;
+  flex-direction: column;
+  /*l'orientation de notre contenu, avec display: flexet flex-direction: column car nous voulons que les informations dans notre card s'affichent en colonne et non en ligne.*/
+  padding: 1rem;
+  /*un padding de 1rem pour que le contenu à l'intérieur de notre card ne soit pas trop près du bord.*/
+  width: 50%;
+  /*l'encombrement de cette dernière sur la page : elle fait une largeur occupant 30% de la page, et une hauteur prenant 100% de la page.*/
+  height: 100%;
+  border: solid;
+}
+.character {
+  border-radius: 30%;
+  border: solid;
+}
+.button {
+  width: 7rem;
+  height: 3rem;
+  background-color: grey;
+  border: solid black;
+}
+.button:active {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(6, 6, 6);
+  text-align: center;
+}
+
+.paragraph {
+  font-size: larger;
+  color: rgb(6, 6, 6);
+  display: inline-block;
+}
+.imgStar {
+  width: 12rem;
+}
